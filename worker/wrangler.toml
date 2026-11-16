@@ -1,0 +1,10 @@
+name = "icse-ai"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://YOUR-SITE.example"   # exact site address, no trailing slash
+
+[[kv_namespaces]]
+binding = "RATE"
+id = "PASTE_KV_ID_FROM_wrangler_kv_namespace_create"
